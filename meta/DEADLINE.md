@@ -12,6 +12,9 @@ Markdown is transformed into nice-looking HTML.
 > describe exactly what APIs you are using and how they are connected
 > in a meaningful way.
 
+  My app combines a geolocator api and a weather api. The geolocator provides specific latitudes or longitudes based off of the georgia city inputted by the user, then the weather api takes the coordinates and uses it to provide shortforecast data for the specified area.
+
+
 > **Also, include the GitHub `https` URL to your repository.**
 
 TODO WRITE / REPLACE
@@ -24,6 +27,10 @@ TODO WRITE / REPLACE
 > limits), then you can do that below the URL/URI. Placeholders for this
 > information are provided below. If your app uses more than two RESTful
 > JSON APIs, then include them with similar formatting.
+
+    https://api.weather.gov/gridpoints/FFC/51,87/forecast
+    https://api.example.com/geolocation?lat=33.7490&lon=-84.3880
+
 
 ### API 1
 
@@ -46,11 +53,15 @@ https://../replace/me
 > What is something new and/or exciting that you learned from working
 > on this project?
 
+I never really thought of implementing two apis by using ones response within the others. If I were to uses two they would probably work seperately.
+
 TODO WRITE / REPLACE
 
 ## Part 3: Retrospect
 
 > If you could start the project over from scratch, what do
 > you think might do differently and why?
+
+I would definetely create an app thats a bit more creative as I was short on time because of other finals. Maybe using different apis and incorperating them differently into my project.
 
 TODO WRITE / REPLACE
